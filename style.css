@@ -31,7 +31,7 @@ body {
 .scroll-btn{
     position: absolute;
     top: 90%;
-    left: 50%;
+    left: 49%;
 }
 
 .menu {
@@ -40,9 +40,24 @@ body {
 }
 
 
-.menu .logo {
+.logo {
     float: left;
     transition: .3s;
+    margin: 30px 0 0 110px;
+}
+
+label {
+    margin: 0 30px 0 0;
+    font-size: 26px;
+    line-height: 80px;
+    display: none;
+    width: 26px;
+    float: right;
+    color: #17B9E6;
+}
+
+#toggle {
+    display: none;
 }
 
 nav {
@@ -83,6 +98,7 @@ nav ul li:nth-child(5) {
 }
 
 nav ul li a {
+    clear: right;
     display: block;
     text-decoration: none;
     padding: 13px 1px;
@@ -98,8 +114,8 @@ nav ul li a {
 }
 
 nav a:hover {
-border-bottom: 1px solid #17B9E6;
-/*border-bottom: 1px solid deepskyblue;*/
+    border-bottom: 1px solid #17B9E6;
+    /*border-bottom: 1px solid deepskyblue;*/
 }
 
 
@@ -1291,6 +1307,12 @@ margin: 0 0 0 19px;
 
 @media screen and (max-width: 900px)
 {
+    .we-do-it-card {
+        width: 70%;
+    }
+    .logo {
+        margin: 30px 0 0 60px;
+    }
     .footer {
         height: 600px;
     }
@@ -1313,10 +1335,13 @@ margin: 0 0 0 19px;
         top: 103%;
     }
     .info-digitalcube {
-        top: 104%;
+        top: 108%;
     }
     .meni {
-        top: 108%;
+        top: 112%;
+    }
+    .social-icon {
+        margin: 20px auto;
     }
 }
 
@@ -1336,19 +1361,14 @@ margin: 0 0 0 19px;
 }
 
 @media screen and (max-width: 650px) {
-    .menu {
-        display: grid;
-        padding-top: 2%;
-    }
-    .menu nav ul {
-        width: 100%;
-        text-align: center;
-        float: none;
-    }
+    /*.menu {*/
+        /*display: grid;*/
+        /*padding-top: 2%;*/
+    /*}*/
     .main-text h1 {
         font-size: 32px;
         width: 90%;
-        top: 79%;
+        top: 60%;
     }
     .text-nulla {
         height: 250px;
@@ -1412,6 +1432,11 @@ margin: 0 0 0 19px;
     .desktop {
         height: 25%;
         width: 100%;
+        left: -10%;
+    }
+    .iphone {
+        top: 13%;
+        left: 50%;
     }
     .aaa {
         height: 92%;
@@ -1444,15 +1469,32 @@ margin: 0 0 0 19px;
     }
     .card h1 {
         float: left;
-        width: 100%;
+        width: 78%;
+        line-height: unset;
+        top: 4px;
+        margin-bottom: 20px;
+        margin-left: 20px;
     }
     .card h2 {
         float: left;
-        width: 100%;
+        width: 78%;
+        line-height: unset;
+        margin-top: unset;
+        margin-left: 20px;
     }
     .card p {
         float: left;
-        width: 100%;
+        width: 99%;
+        margin: 0;
+        line-height: unset;
+    }
+    .shape {
+        opacity: unset;
+        height: unset;
+    }
+    .shape img {
+        float: left;
+        width: 80%;
     }
     .group5 {
         width: 85%;
@@ -1472,12 +1514,52 @@ margin: 0 0 0 19px;
 @media screen and (max-width: 500px) {
     .main-text h1 {
         font-size: 5.9vw;
+        top: 50%;
+    }
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    nav {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    #toggle:checked + nav {
+        display: block;
+    }
+    .menu nav ul {
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+    .scroll-btn {
+        top: 55%;
+    }
+    .menu {
+        display: block;
+    }
+    .logo {
+        width: 150px;
+        margin: 30px 0 0 40px;
+    }
+    .menu-rows {
+        padding: 10px;
     }
     .menu-rows .double {
-        font-size: 2.1vw;
+        font-size: 3vw;
+        margin: 0;
+        width: 100%;
+        line-height: 17px;
     }
     .menu-rows p {
-        font-size: 2.1vw;
+        font-size: 3vw;
+        margin: 0;
+        width: 100%;
+        line-height: unset;
+    }
+    .menu-rows img {
+        margin: unset;
     }
     .card h2 {
         font-size: 2vw;
@@ -1513,16 +1595,22 @@ margin: 0 0 0 19px;
     }
     .group2 p {
         font-size: 12px;
+        line-height: 25px;
     }
     .cards p {
         width: 90%;
+        margin-top: unset;
+    }
+    .cards img {
+        margin-bottom: 30px;
     }
     .quality h1 {
         line-height: 30px;
         font-size: 6vw;
     }
     .quality p {
-        line-height: 25px;
+        line-height: 22px;
+        font-size: 4vw;
     }
     .group3 {
         grid-row-gap: 90px;
@@ -1602,6 +1690,45 @@ margin: 0 0 0 19px;
     }
     .footer-box4 p {
         letter-spacing: -1px;
+    }
+    .what-we-do {
+        margin: 0 0 30px;
+    }
+    .what-mask {
+        padding: 7% 0 0 7%;
+        height: unset;
+    }
+    .text-nulla {
+        font-size: 3vw;
+        margin-left: unset;
+    }
+    .card h2 {
+        font-size: 3.5vw;
+    }
+    .card p {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 407px) {
+    .card h1 {
+        top: -38px;
+        margin-left: 69px;
+    }
+    .card h2 {
+        font-size: 3.6vw;
+        position: relative;
+        top: -11%;
+        margin-left: unset;
+        width: 100%;
+    }
+    .card p {
+        font-size: 3.3vw;
+        position: relative;
+        top: -12%;
+    }
+    .text-nulla {
+        font-size: 3.3vw;
     }
 }
 
