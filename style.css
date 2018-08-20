@@ -1651,7 +1651,7 @@ margin: 0 0 0 19px;
         top: 30%;
         width: 100%;
     }
-    .content {
+    #content {
         font-size: 8vw;
     }
     .section-mark {
@@ -1749,4 +1749,5 @@ margin: 0 0 0 19px;
     .text-nulla {
         font-size: 3.3vw;
     }
+
 }

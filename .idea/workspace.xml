@@ -95,14 +95,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="6247" />
+          <entry key="css" value="6249" />
           <entry key="html" value="959" />
           <entry key="js" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="6247" />
+          <entry key="CSS" value="6249" />
           <entry key="HTML" value="955" />
           <entry key="JavaScript" value="7" />
         </counts>
@@ -111,11 +111,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+            <state relative-caret-position="795">
+              <caret line="337" column="10" lean-forward="true" selection-start-line="109" selection-end-line="337" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -128,11 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="1752" lean-forward="true" selection-start-line="1752" selection-end-line="1752" />
+            <state relative-caret-position="215">
+              <caret line="1648" column="5" lean-forward="true" selection-start-line="1648" selection-start-column="5" selection-end-line="1648" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -173,6 +173,7 @@
       <find>aaa</find>
       <find>des</find>
       <find>iph</find>
+      <find>conte</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,8 +187,8 @@
         <option value="$PROJECT_DIR$/script.js" />
         <option value="$PROJECT_DIR$/proba.html" />
         <option value="$PROJECT_DIR$/stylee.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -298,12 +299,12 @@
       <workItem from="1534327738985" duration="14464000" />
       <workItem from="1534404396150" duration="11904000" />
       <workItem from="1534490230285" duration="12892000" />
-      <workItem from="1534750948489" duration="4932000" />
+      <workItem from="1534750948489" duration="7034000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="371313000" />
+    <option name="totallyTimeSpent" value="373415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1920" height="1082" extended-state="6" />
@@ -373,10 +374,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="1648" column="5" lean-forward="true" selection-start-line="1648" selection-start-column="5" selection-end-line="1648" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+        <state relative-caret-position="795">
+          <caret line="337" column="10" lean-forward="true" selection-start-line="109" selection-end-line="337" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -385,13 +393,6 @@
             <element signature="n#style#0;n#span#0;n#h1#0;n#div#1;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="1752" lean-forward="true" selection-start-line="1752" selection-end-line="1752" />
         </state>
       </provider>
     </entry>
