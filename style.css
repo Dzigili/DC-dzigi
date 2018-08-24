@@ -1470,6 +1470,8 @@ margin: 0 0 0 19px;
     }
     .group4 p {
         top: -140px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .group6 p {
         margin: 80px auto;
